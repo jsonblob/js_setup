@@ -1,3 +1,6 @@
-test("adds 1 + 2 to equal 3", () => {
-  expect(1).toBe(1);
+import Sum from "./Sum";
+
+test("print", () => {
+  const sum = new Sum();
+  expect(sum.print("a")).toBe("a");
 });
