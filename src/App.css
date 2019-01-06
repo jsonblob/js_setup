@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+.Container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Button {
+  width: 33%;
+}
